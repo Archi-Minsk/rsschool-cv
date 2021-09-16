@@ -1,0 +1,119 @@
+body {
+    background-color:#E3E3E3;
+    margin: 0;
+    display: block;
+}
+a{
+    color: black;
+}
+.container .aside img {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container .aside {
+    width: 30%;
+    background-color: #767676;
+    color: #fff;
+}
+.container {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.container .aside .education {
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.container .aside .education__place {
+    
+    font-weight: 600;
+    
+}
+.container .aside .education__descr {
+    
+    padding-left: 20px;
+    font-weight: 500;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container .aside .contacts {
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.container .aside .skills {
+    color: black;
+    margin-left: 50px;
+}
+
+.main {
+    display: block;
+    width: 70%;
+    color: #2d2d2d;
+    background-color: #fff;
+}
+header {
+    display: block;
+}
+.main .header {
+    margin-top: 0px;
+    margin: 0;
+    height: 100px;
+    background-color: #BBBBBB;
+    display: flex;
+    padding:65px  50px;
+    text-transform: uppercase;
+     margin-bottom: 50px;  
+     line-height: 5px;
+}
+.main .header .name {
+    margin-bottom: 50px;
+}
+.main .header .prof{
+     font-size: 15px;
+}
+
+.main__wrapper {
+    padding: 0px 60px;
+}
+.main .footer {
+    height: 200px;
+    background-color:#BBBBBB;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.main .footer .date {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.main .footer div img {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.main__wrapper .code-example {
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.divider_black {
+    background-color:black;
+    display: block;
+    height: 2px;
+    margin-bottom: 1em;
+}
