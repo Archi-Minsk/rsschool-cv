@@ -1,1 +1,1 @@
-- [rsschool-cv](https://archi-minsk.github.io/rsschool-cv/cv) 
+- [rsschool-cv](https://archi-minsk.github.io/rsschool-cv/) 
