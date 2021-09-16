@@ -59,4 +59,4 @@ I'm 34 years old. I work for myself in the service industry, read books and do  
 ## **Languages**
 
 - Russian - native speaker.
-- English - A2 (raising my level)
+- English - A2 
