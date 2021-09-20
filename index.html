@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Artem Bychkov CV</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="aside">
+            <div class="aside__photo">
+                <img src="img/66427EB4-0E10-42FF-9041-7FE99EC1FEA8_1_201_a.jpeg" alt="photo">
+            </div>
+            <section class="education">
+                <h2>Education</h2>
+                <div class="education__place">
+                    <h4>Udemy(online courses):</h4>
+                    <ul class="contacts__wrapper">
+                    <li class="contacts__phone"><a href="https://www.udemy.com/course/javascript_full/learn/lecture/18916560#overview" target="_blank">JavaScript + React</a></li>
+                    <li class="contacts__e-mail"><a href="https://www.udemy.com/course/javascript_practice/learn/lecture/17755200?start=0#content"  target="_blank">JavaScript продвинутый уровень</a></li>
+                </ul>
+                </div>
+            </section>
+            <div class="divider_black"></div>
+            <section class="contacts">
+                <h2>Contacts</h2>
+               
+                <ul class="contacts__wrapper">
+                    <li class="contacts__phone"><a href="tel:+375296492050" target="_blank">+375 29 649-20-50</a></li>
+                    <li class="contacts__e-mail"><a href="mailto:6492959@gmail.com" target="_blank">G-Mail</a></li>
+                </ul>
+            </section>
+            <div class="divider_black"></div>
+            <section class="skills">
+                <h2>Skills</h2>
+                
+                <ul class="skills__list">
+                    <li class="skills__html">HTML</li>
+                    <li class="skills__css">CSS(Basic)</li>
+                    <li class="skills__javascript">JavaScript</li>
+                    <li class="skills__github">React(Basic)</li>
+                    <li class="skills__github">GitHub and Git</li>
+                    
+                </ul>
+            </section>
+        </aside>
+        <main class="main">
+            <header class="header">
+                <div class="name">
+                    <h1>Artem Bychkov</h1> <br>
+                    <h2>junior front-end developer</h2>
+               </div>     
+            </header>
+            <div class="main__wrapper">
+                <section class="about">
+                    <h2>About Me</h2>
+                    <div class="divider_black"></div>
+                    <p class="about__descr">
+                        I'm 34 years old. I work for myself in the service industry, read books and do               front-end development on online courses, I get great pleasure from this, this                occupation absorbs me completely and I like it. My goal is to become a good developer,       and to do something that will make life easier for other people.
+                    </p>
+                    <h3>My strengths:</h3>
+                    <ul class="about__strengths">                            
+                        <li>Quick learner</li>
+                        <li>Full immersion in the essence of the problems</li>
+                        <li>Diligence</li>
+                        <li>Team playing</li>
+                    </ul>
+                    <h3>Languages</h3>
+                    <ul class="about__languages">                            
+                        <li>Russian - native speaker</li>
+                        <li>English - A2</li>
+                    </ul>
+                    
+                </section>
+                <section class="code-example">
+                    <h2>Code example</h2>
+                    <div class="divider_black"></div>
+                    <pre> 
+                         <code>
+         function deepCount(a){
+                            <Br>
+            let count = 0;
+                            <Br>
+            const recursion = arr =>{
+                            <Br>
+                count+= arr.length;
+                             <Br>
+                 for(let i of arr){
+                            <Br>
+                     if(Array.isArray(i)){
+                            <Br>
+                         recursion(i)
+                             <Br>
+                      }
+                            <Br>
+                 }
+                            <Br>
+           }
+                            <Br>
+             recursion(a);
+                            <Br>
+             return count;
+                            <Br>
+         } 
+                        </code>
+                    </pre>
+                </section>
+            </div>
+            <footer class="footer">
+                <div>
+                    <a href="https://github.com/Archi-Minsk" target="_blank">
+                        <img src="img/25231.png" alt="github_icon">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/rs_school_js.svg" alt="rs-school-logo">
+                    </a>
+                </div>
+                <div class="date">
+                    <p>
+                        Created <br> 
+                        in <br>
+                        2021
+                    </p>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
